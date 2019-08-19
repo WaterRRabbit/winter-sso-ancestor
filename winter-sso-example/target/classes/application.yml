@@ -1,0 +1,5 @@
+server:
+  port: 8888
+winter:
+  sso:
+    server: http://localhost:9999
