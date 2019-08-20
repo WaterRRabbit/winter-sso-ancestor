@@ -40,13 +40,17 @@ public interface SecurityManager{
      * 退出
      *
      */
-    void logout();
+    void logout(HttpServletRequest request, HttpServletResponse response);
 
     /**
      * Token生成策略
+     * 使用mark对token进行加密
+     * 加密密钥最好为用户的唯一标识
+     * 防止token泄露，别拷贝到别的客户端使用
      *
+     * @param mark
      * @param objects
      * @return
      */
-    String produceToken(Object... objects);
+    String produceToken(String mark, Object... objects);
 }

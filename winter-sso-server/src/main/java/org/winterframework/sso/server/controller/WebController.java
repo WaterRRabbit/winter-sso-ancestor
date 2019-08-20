@@ -28,7 +28,7 @@ public class WebController {
             request.setAttribute("redirect_url", from);
             String token;
             if ((token = securityManager.loginCheck(request, response))!=null) {
-                return "redirect:" + from + "?ssoSessionId=" + token;
+                return "redirect:" + from + "?token=" + token;
             }
         }
         return "login";
@@ -48,7 +48,7 @@ public class WebController {
             request.setAttribute("error", "密码错误");
             return "redirect:/login?from=" + request.getParameter("redirect_url");
         }
-        String redirectUrl = request.getParameter("redirect_url") + "?ssoSessionId=" + ssoSessionId;
+        String redirectUrl = request.getParameter("redirect_url") + "?token=" + ssoSessionId;
         return "redirect:" + redirectUrl;
     }
 
