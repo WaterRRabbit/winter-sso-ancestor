@@ -1,6 +1,0 @@
-server:
-  port: 9999
-winter:
-  redis:
-    host: 106.13.198.2
-    port: 6379

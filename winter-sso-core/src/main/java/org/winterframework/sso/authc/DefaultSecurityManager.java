@@ -5,7 +5,6 @@ import org.winterframework.sso.exception.AccountException;
 import org.winterframework.sso.realm.AuthenticatingRealm;
 import org.winterframework.sso.session.SessionContext;
 import org.winterframework.sso.session.SessionManager;
-import org.winterframework.sso.session.SimpleSession;
 import org.winterframework.sso.util.DESUtils;
 
 import javax.servlet.http.Cookie;
@@ -21,15 +20,10 @@ public class DefaultSecurityManager implements SecurityManager {
     private static final String SSO_TOKEN_NAME = "SSOTOKEN";
 
     private AuthenticatingRealm authenticatingRealm;
-    private TokenManager tokenManager;
     private SessionManager sessionManager;
 
     public void setAuthenticatingRealm(AuthenticatingRealm authenticatingRealm) {
         this.authenticatingRealm = authenticatingRealm;
-    }
-
-    public void setTokenManager(TokenManager tokenManager) {
-        this.tokenManager = tokenManager;
     }
 
     public void setSessionManager(SessionManager sessionManager) {
@@ -51,7 +45,6 @@ public class DefaultSecurityManager implements SecurityManager {
             response.addCookie(new Cookie(SSO_TOKEN_NAME, ssoToken));
             SessionContext context = new SessionContext(sessionId);
             sessionManager.start(context);
-            tokenManager.store(ssoToken);
             return ssoToken;
         }
         return null;
@@ -63,12 +56,8 @@ public class DefaultSecurityManager implements SecurityManager {
         if (token == null) {
             return null;
         }
-        /*if (tokenManager.check(ssoToken)) {
-            return ssoToken;
-        }*/
-        String sessionId = parseSessionId(token, request);
-        SimpleSession session = null;
-        if ((session = (SimpleSession) sessionManager.getSession(sessionId)) != null) {
+        String sessionId = parseSessionId(token, request.getHeader("User-Agent"));
+        if (sessionManager.contains(sessionId)) {
             return token;
         }
         return null;
@@ -76,9 +65,9 @@ public class DefaultSecurityManager implements SecurityManager {
 
     @Override
     public void logout(HttpServletRequest request, HttpServletResponse response) {
-        String ssoToken = getToken(request);
-        String sessionId = parseSessionId(ssoToken, request);
-        if (ssoToken != null) {
+        String token = getToken(request);
+        if (token != null) {
+            String sessionId = parseSessionId(token, request.getHeader("User-Agent"));
             sessionManager.removeSession(sessionId);
         }
     }
@@ -105,29 +94,42 @@ public class DefaultSecurityManager implements SecurityManager {
 
     /**
      * 获取保存在浏览器端的Token
+     * 先从参数中获取，没有则在Cookie中寻找
      *
      * @param request
-     * @return
+     * @return Token
      */
     private String getToken(HttpServletRequest request) {
-        String token = null;
-        if ((token = request.getParameter("token"))!=null){
+        String token;
+        if ((token = request.getParameter("token")) != null) {
             return token;
         }
         Cookie[] cookies = request.getCookies();
-        for (Cookie cookie : cookies) {
-            if (SSO_TOKEN_NAME.equals(cookie.getName())) {
-                token = cookie.getValue();
+        if (cookies != null && cookies.length > 0) {
+            for (Cookie cookie : cookies) {
+                if (SSO_TOKEN_NAME.equals(cookie.getName())) {
+                    token = cookie.getValue();
+                }
             }
         }
         return token;
     }
 
-    private String parseSessionId(String token, HttpServletRequest request){
+    /**
+     * 使用User-Agent为密钥解密Token获取sessionId
+     *
+     * @param token   令牌
+     * @param mark
+     * @return sessionId
+     */
+    private String parseSessionId(String token, String mark) {
         String sessionId = null;
         try {
-            sessionId = DESUtils.decrypt(token, request.getHeader("User-Agent"));
-        }catch (Exception e){
+            if (token == null){
+                throw new NullPointerException("Token is null");
+            }
+            sessionId = DESUtils.decrypt(token, mark);
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return sessionId;

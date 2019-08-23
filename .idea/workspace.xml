@@ -2,18 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b54424c2-de71-41bf-b0e9-f7a912c8a6c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winter-sso-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/DefaultSecurityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/DefaultSecurityManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/SecurityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/SecurityManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winter-sso-core/src/test/java/PathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/src/test/java/PathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/DefaultSecurityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/DefaultSecurityManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/SecurityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/SecurityManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/test-classes/PathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/target/test-classes/PathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/RedisSessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/RedisSessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/SessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/SessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/JedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/JedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/src/test/java/DESTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-core/src/test/java/DESTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/META-INF/winter-sso-core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/AuthenticationInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/AuthenticationToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/DefaultSecurityManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/MemoryTokenManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/RedisTokenManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/SecurityManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/SecurityUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/TokenManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/authc/UsernamePasswordToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/exception/AccountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/exception/IncorrectCredentialsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/exception/SessionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/exception/UnknownAccountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/exception/WinterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/realm/AuthenticatingRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/realm/MemoryAuthenticatingRealm$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/realm/MemoryAuthenticatingRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/session/RedisSessionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/session/Session.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/session/SessionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/session/SessionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/session/SimpleSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/util/AntPathMatcher$AntPathStringMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/util/AntPathMatcher$AntPatternComparator$PatternInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/util/AntPathMatcher$AntPatternComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/util/AntPathMatcher$PathSeparatorPatternCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/util/AntPathMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/util/DESUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/util/JedisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/util/PathMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/classes/org/winterframework/sso/util/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/test-classes/DESTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/test-classes/META-INF/winter-sso-core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-core/target/test-classes/PathTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/filter/WebSsoFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/filter/WebSsoFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-example/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-example/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-example/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-example/target/classes/org/winterframework/sso/example/SsoExampleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-example/target/classes/org/winterframework/sso/example/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-example/target/classes/org/winterframework/sso/example/filter/BaseSsoFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-example/target/classes/org/winterframework/sso/example/filter/WebSsoFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-example/target/classes/templates/index.ftl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-server/target/classes/org/winterframework/sso/server/SsoServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-server/target/classes/org/winterframework/sso/server/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-server/target/classes/org/winterframework/sso/server/constant/BaseResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-server/target/classes/org/winterframework/sso/server/controller/WebController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter-sso-server/target/classes/templates/login.ftl" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,93 +78,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/SecurityManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/Session.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/config/WebConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/config/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/DefaultSecurityManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+            <state relative-caret-position="800">
+              <caret line="42" column="47" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#1183#1184#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/filter/WebSsoFilter.java">
+        <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/SessionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="46" column="63" lean-forward="true" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/controller/WebController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -125,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/JedisUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="273" column="23" selection-start-line="273" selection-start-column="23" selection-end-line="273" selection-end-column="23" />
+            <state>
+              <caret line="321" selection-start-line="321" selection-end-line="321" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +112,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/exception/SessionException.java">
+        <entry file="file://$PROJECT_DIR$/winter-sso-core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state>
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/controller/WebController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,17 +135,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/RedisSessionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            <state>
+              <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/DESUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/AuthenticationInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -171,14 +175,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ssoToken</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/SessionManager.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/constant/BaseResult.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/exception/IncorrectCredentialsException.java" />
-        <option value="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/authc/Subject.java" />
         <option value="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/authc/AuthorizationInfo.java" />
         <option value="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/realm/AuthenticatingRealm.java" />
         <option value="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/constant/BaseResult.java" />
@@ -192,8 +203,6 @@
         <option value="$PROJECT_DIR$/winter-sso-example/src/main/resources/templates/index.ftl" />
         <option value="$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/filter/SsoFilterFactoryBean.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/exception/IncorrectCredentialsException.java" />
-        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/realm/MemoryAuthenticatingRealm.java" />
-        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/Subject.java" />
         <option value="$PROJECT_DIR$/winter-sso-server/pom.xml" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/PathMatcher.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/util/PathMatcher.java" />
@@ -203,31 +212,35 @@
         <option value="$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/filter/BaseSsoFilter.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/AESUtils.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/test/java/AESTest.java" />
-        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/DESUtils.java" />
-        <option value="$PROJECT_DIR$/winter-sso-core/src/test/java/DESTest.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/StringUtils.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/realm/AuthenticatingRealm.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/MemoryTokenManager.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/TokenManager.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/AuthenticationToken.java" />
-        <option value="$PROJECT_DIR$/winter-sso-example/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/winter-sso-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/test/java/PathTest.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/exception/SessionException.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/pom.xml" />
-        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/JedisUtil.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/SimpleSession.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/Session.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/SessionContext.java" />
-        <option value="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/SessionManager.java" />
-        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/RedisSessionManager.java" />
         <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/SecurityManager.java" />
         <option value="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/controller/WebController.java" />
-        <option value="$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/filter/WebSsoFilter.java" />
-        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/DefaultSecurityManager.java" />
+        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/Subject.java" />
+        <option value="$PROJECT_DIR$/winter-sso-example/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/SessionManager.java" />
+        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/realm/MemoryAuthenticatingRealm.java" />
+        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/filter/BaseSsoFilter.java" />
+        <option value="$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/filter/WebSsoFilter.java" />
+        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/RedisSessionManager.java" />
+        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/DefaultSecurityManager.java" />
+        <option value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/DESUtils.java" />
+        <option value="$PROJECT_DIR$/winter-sso-core/src/test/java/DESTest.java" />
+        <option value="$PROJECT_DIR$/winter-sso-core/src/test/java/AESUtil.java" />
       </list>
     </option>
   </component>
@@ -261,9 +274,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -271,6 +284,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,80 +302,6 @@
               <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
               <item name="winter-sso-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
-              <item name="winter-sso-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
-              <item name="winter-sso-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
-              <item name="winter-sso-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
-              <item name="winter-sso-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="authc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
-              <item name="winter-sso-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
-              <item name="winter-sso-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="realm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
-              <item name="winter-sso-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
-              <item name="winter-sso-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
@@ -446,9 +386,7 @@
               <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
               <item name="winter-sso-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
@@ -523,11 +461,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="winter-sso-ancestor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winter-sso-ancestor" type="462c0819:PsiDirectoryNode" />
+              <item name="winter-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -539,25 +483,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/filter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22157995" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.winterframework.sso.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\temporary\winter-sso-ancestor\winter-sso-core\src\main\java\org\winterframework\sso\filter" />
       <recent name="D:\temporary\winter-sso-ancestor\winter-sso-core\src\main\java\org\winterframework\sso\util" />
       <recent name="D:\temporary\winter-sso-ancestor\winter-sso-core\src\main\java\org\winterframework\sso\realm" />
       <recent name="D:\temporary\winter-sso-ancestor\winter-sso-core\src\main\java\org\winterframework\sso\authc" />
       <recent name="D:\temporary\winter-sso-ancestor\winter-sso-core\src\main\java\org\winterframework\sso\exception" />
-      <recent name="D:\temporary\winter-sso-ancestor\winter-sso-example\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -572,7 +516,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SsoExampleApplication">
+  <component name="RunManager" selected="Application.DESTest">
     <configuration name="DESTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DESTest" />
       <module name="winter-sso-core" />
@@ -638,11 +582,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SsoExampleApplication" />
+        <item itemvalue="Application.DESTest" />
         <item itemvalue="Spring Boot.SsoServerApplication" />
+        <item itemvalue="Spring Boot.SsoExampleApplication" />
         <item itemvalue="Application.JedisUtil" />
         <item itemvalue="Application.PathTest" />
-        <item itemvalue="Application.DESTest" />
       </list>
     </recent_temporary>
   </component>
@@ -663,16 +607,19 @@
       <workItem from="1566175106267" duration="13004000" />
       <workItem from="1566262532562" duration="12787000" />
       <workItem from="1566301418822" duration="9892000" />
+      <workItem from="1566348160829" duration="14197000" />
+      <workItem from="1566546431150" duration="1247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94571000" />
+    <option name="totallyTimeSpent" value="110015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20507812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2454427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -683,8 +630,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5078125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3528646" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17708333" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20963542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -786,55 +733,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/authc/SecurityUtils.java" />
-    <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/authc/Subject.java" />
-    <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/authc/UsernamePasswordToken.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar!/org/apache/catalina/connector/RequestFacade.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="276" selection-start-line="276" selection-end-line="276" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/util/AntPathMatcher.java" />
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/util/PathMatcher.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar!/org/springframework/util/PathMatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar!/org/springframework/util/AntPathMatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/winter-sso-core/src/test/java/AESTest.java" />
     <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/AESUtils.java" />
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/test/java/DESTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-640">
@@ -851,49 +751,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/winter-sso-example/src/main/resources/templates/index.ftl">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/realm/MemoryAuthenticatingRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/MemoryTokenManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/realm/AuthenticatingRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-example/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -913,20 +770,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/exception/UnknownAccountException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/exception/IncorrectCredentialsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/exception/AccountException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -954,67 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/AuthenticationInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/UsernamePasswordToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding>
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/TokenManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/RedisTokenManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/AntPathMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-880">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/SecurityUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1032,10 +814,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/exception/SessionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/SsoExampleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-example/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2145#2146#0" expanded="true" />
+            <element signature="e#2298#2299#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/realm/AuthenticatingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="57" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/exception/AccountException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/TokenManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/MemoryTokenManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/UsernamePasswordToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/AuthenticationToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/RedisTokenManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/Filter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/realm/MemoryAuthenticatingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/filter/BaseSsoFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/filter/WebSsoFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="46" column="63" lean-forward="true" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/constant/BaseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/AntPathMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2020">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,17 +1009,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/exception/IncorrectCredentialsException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/DESUtils.java">
+    <entry file="file://$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/filter/WebSsoFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="77" column="61" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
+        <state relative-caret-position="359">
+          <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;class#SecurityManager#0" />
+            <element signature="docComment;method#login#0;class#SecurityManager#0" />
+            <element signature="docComment;method#loginCheck#0;class#SecurityManager#0" />
+            <element signature="docComment;method#logout#0;class#SecurityManager#0" />
+            <element signature="docComment;method#produceToken#0;class#SecurityManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar!/org/apache/catalina/connector/RequestFacade.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="301" selection-start-line="301" selection-end-line="301" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar!/org/apache/catalina/connector/Request.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="1306" selection-start-line="1306" selection-end-line="1306" />
+          <folding>
+            <element signature="e#44969#44970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1630">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+          <folding>
+            <element signature="e#4686#4687#0" expanded="true" />
+            <element signature="e#4725#4726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/test/java/DESTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/test/java/AESUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-487">
+          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/DefaultSecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1065,118 +1108,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/SessionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/RedisSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/exception/SessionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/DefaultSecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/JedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="273" column="23" selection-start-line="273" selection-start-column="23" selection-end-line="273" selection-end-column="23" />
+        <state>
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/controller/WebController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state>
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/filter/WebSsoFilter.java">
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/session/RedisSessionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="46" column="63" lean-forward="true" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-server/src/main/java/org/winterframework/sso/server/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+        <state>
+          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winter-sso-example/src/main/java/org/winterframework/sso/example/config/WebConfig.java">
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/util/DESUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        <state>
+          <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter-sso-core/src/main/java/org/winterframework/sso/authc/AuthenticationInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>

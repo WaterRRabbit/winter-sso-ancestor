@@ -1,6 +1,5 @@
 package org.winterframework.sso.util;
 
-import org.winterframework.sso.session.SimpleSession;
 import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.JedisShardInfo;
 import redis.clients.jedis.ShardedJedis;
@@ -99,8 +98,7 @@ public class JedisUtil {
             throw new NullPointerException(">>>>>>>>>>> xxl-sso, JedisUtil.ShardedJedisPool is null.");
         }
 
-        ShardedJedis shardedJedis = shardedJedisPool.getResource();
-        return shardedJedis;
+        return shardedJedisPool.getResource();
     }
 
     public static void close() throws IOException {
@@ -109,11 +107,8 @@ public class JedisUtil {
         }
     }
 
-
-    // ------------------------ serialize and unserialize ------------------------
-
     /**
-     * 将对象-->byte[] (由于jedis中不支持直接存储object所以转换成byte[]存入)
+     * 序列化
      *
      * @param object
      * @return
@@ -126,14 +121,17 @@ public class JedisUtil {
             baos = new ByteArrayOutputStream();
             oos = new ObjectOutputStream(baos);
             oos.writeObject(object);
-            byte[] bytes = baos.toByteArray();
-            return bytes;
+            return baos.toByteArray();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
             try {
-                oos.close();
-                baos.close();
+                if (oos != null) {
+                    oos.close();
+                }
+                if (baos != null) {
+                    baos.close();
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -142,7 +140,7 @@ public class JedisUtil {
     }
 
     /**
-     * 将byte[] -->Object
+     * 反序列化
      *
      * @param bytes
      * @return
@@ -158,20 +156,15 @@ public class JedisUtil {
             e.printStackTrace();
         } finally {
             try {
-                bais.close();
+                if (bais != null) {
+                    bais.close();
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
         return null;
     }
-
-    // ------------------------ jedis util ------------------------
-    /**
-     * 存储简单的字符串或者是Object 因为jedis没有分装直接存储Object的方法，所以在存储对象需斟酌下
-     * 存储对象的字段是不是非常多而且是不是每个字段都用到，如果是的话那建议直接存储对象，
-     * 否则建议用集合的方式存储，因为redis可以针对集合进行日常的操作很方便而且还可以节省空间
-     */
 
     /**
      * Set String
@@ -373,15 +366,6 @@ public class JedisUtil {
             }
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        String xxlSsoRedisAddress = "redis://xxl-sso:password@127.0.0.1:6379/0";
-        xxlSsoRedisAddress = "redis://127.0.0.1:6379";
-        init(xxlSsoRedisAddress);
-        SimpleSession simpleSession = new SimpleSession("123");
-        setObjectValue("key", simpleSession, 2*60*60);
-        System.out.println(getObjectValue("key"));
     }
 
 }

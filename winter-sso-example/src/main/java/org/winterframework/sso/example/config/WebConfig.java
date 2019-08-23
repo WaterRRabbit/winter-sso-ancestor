@@ -5,9 +5,7 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.winterframework.sso.authc.DefaultSecurityManager;
-import org.winterframework.sso.authc.MemoryTokenManager;
 import org.winterframework.sso.authc.SecurityManager;
-import org.winterframework.sso.authc.TokenManager;
 import org.winterframework.sso.example.filter.WebSsoFilter;
 import org.winterframework.sso.realm.AuthenticatingRealm;
 import org.winterframework.sso.realm.MemoryAuthenticatingRealm;
@@ -25,6 +23,11 @@ public class WebConfig {
 
     @Value("${winter.sso.server}")
     private String ssoServer;
+    @Value("${winter.redis.host}")
+    private String host;
+    @Value("${winter.redis.port}")
+    private String port;
+
 
     @Bean
     public FilterRegistrationBean filterRegistrationBean(SecurityManager securityManager){
@@ -40,11 +43,9 @@ public class WebConfig {
 
     @Bean
     public SecurityManager securityManager(AuthenticatingRealm authenticatingRealm,
-                                           TokenManager tokenManager,
                                            SessionManager sessionManager){
         DefaultSecurityManager securityManager = new DefaultSecurityManager();
         securityManager.setAuthenticatingRealm(authenticatingRealm);
-        securityManager.setTokenManager(tokenManager);
         securityManager.setSessionManager(sessionManager);
         return securityManager;
     }
@@ -55,12 +56,7 @@ public class WebConfig {
     }
 
     @Bean
-    public TokenManager tokenManager(){
-        return new MemoryTokenManager();
-    }
-
-    @Bean
     public SessionManager sessionManager(){
-        return new RedisSessionManager();
+        return new RedisSessionManager(host, port);
     }
 }
