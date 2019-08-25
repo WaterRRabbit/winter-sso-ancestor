@@ -12,7 +12,7 @@ winter-sso是一个跨域单点登录框架，只需在认证中心登录一次�
 
 `项目名称：winter-sso-server`
 
-##### 配置
+##### 配置信息
 
 `文件位置：resources/application.properties`
 
@@ -82,6 +82,15 @@ public class MyAuthenticatingRealm extends AuthenticatingRealm {
     <artifactId>winter-sso-core</artifactId>
     <version>{版本号}</version>
 </dependency>
+```
+
+##### 配置信息
+
+```properties
+# Redis ip
+winter.redis.host=127.0.0.1
+# Redis 端口
+winter.redis.port=6379
 ```
 
 ##### 配置过滤器
