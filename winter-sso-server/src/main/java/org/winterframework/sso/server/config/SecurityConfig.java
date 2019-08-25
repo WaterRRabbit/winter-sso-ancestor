@@ -1,13 +1,12 @@
 package org.winterframework.sso.server.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.winterframework.sso.authc.DefaultSecurityManager;
 import org.winterframework.sso.authc.SecurityManager;
 import org.winterframework.sso.realm.AuthenticatingRealm;
 import org.winterframework.sso.realm.MemoryAuthenticatingRealm;
-import org.winterframework.sso.session.RedisSessionManager;
-import org.winterframework.sso.session.SessionManager;
 
 /**
  * @Author: YHG
@@ -16,12 +15,15 @@ import org.winterframework.sso.session.SessionManager;
 @Configuration
 public class SecurityConfig {
 
+    @Value("${winter.redis.host}")
+    private String host;
+    @Value("${winter.redis.port}")
+    private String port;
+
     @Bean
-    public SecurityManager securityManager(AuthenticatingRealm authenticatingRealm,
-                                           SessionManager sessionManager){
-        DefaultSecurityManager securityManager = new DefaultSecurityManager();
+    public SecurityManager securityManager(AuthenticatingRealm authenticatingRealm){
+        DefaultSecurityManager securityManager = new DefaultSecurityManager(host, port);
         securityManager.setAuthenticatingRealm(authenticatingRealm);
-        securityManager.setSessionManager(sessionManager);
         return securityManager;
     }
 
@@ -30,8 +32,4 @@ public class SecurityConfig {
         return new MemoryAuthenticatingRealm();
     }
 
-    @Bean
-    public SessionManager sessionManager(){
-        return new RedisSessionManager();
-    }
 }

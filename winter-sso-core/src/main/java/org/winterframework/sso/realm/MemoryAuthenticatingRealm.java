@@ -3,6 +3,7 @@ package org.winterframework.sso.realm;
 
 import org.winterframework.sso.authc.AuthenticationInfo;
 import org.winterframework.sso.authc.AuthenticationToken;
+import org.winterframework.sso.authc.SimpleAuthenticationInfo;
 
 /**
  * @Author: YHG
@@ -14,17 +15,7 @@ public class MemoryAuthenticatingRealm extends AuthenticatingRealm {
         if (!"admin".equals(token.getPrincipal())){
             return null;
         }else {
-            return new AuthenticationInfo() {
-                @Override
-                public Object getPrincipal() {
-                    return "admin";
-                }
-
-                @Override
-                public Object getCredentials() {
-                    return "admin";
-                }
-            };
+            return new SimpleAuthenticationInfo("admin", "admin");
         }
     }
 }
