@@ -1,8 +1,0 @@
-server:
-  port: 8888
-winter:
-  sso:
-    server: http://localhost:9999
-  redis:
-    host: 127.0.0.1
-    port: 6379
