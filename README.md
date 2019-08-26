@@ -4,7 +4,7 @@ winter-sso是一个跨域单点登录框架，只需在认证中心登录一次�
 
 持续更新...
 
-[TOC]
+![](https://github.com/WaterRRabbit/winter-sso-ancestor/blob/master/logo.png)
 
 ### 快速启动
 
