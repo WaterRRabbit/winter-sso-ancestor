@@ -21,6 +21,8 @@ winter-sso是一个跨域单点登录框架，只需在认证中心登录一次�
 winter.redis.host=127.0.0.1
 # Redis 端口
 winter.redis.port=6379
+# 登录状态保存时间,单位/秒
+winter.sso.expiration=1800
 ```
 
 `配置安全管理器`
@@ -32,10 +34,14 @@ public class SecurityConfig {
     private String host;
     @Value("${winter.redis.port}")
     private String port;
+    @Value("${winter.sso.expiration}")
+    private int expiration;
+    
     @Bean
     public SecurityManager securityManager(AuthenticatingRealm authenticatingRealm){
         DefaultSecurityManager securityManager = new DefaultSecurityManager(host, port);
         securityManager.setAuthenticatingRealm(authenticatingRealm);
+        securityManager.setExpiration(expiration);
         return securityManager;
     }
     @Bean
