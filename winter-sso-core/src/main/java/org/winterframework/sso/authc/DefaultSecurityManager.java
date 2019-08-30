@@ -21,6 +21,7 @@ public class DefaultSecurityManager implements SecurityManager {
     private AuthenticatingRealm authenticatingRealm;
     private SessionManager sessionManager;
     private TokenDelegete tokenDelegete;
+    private int expiration = -1;
 
     public DefaultSecurityManager(){
         tokenDelegete = new TokenDelegete();
@@ -30,6 +31,10 @@ public class DefaultSecurityManager implements SecurityManager {
     public DefaultSecurityManager(String host, String port){
         tokenDelegete = new TokenDelegete();
         sessionManager = new RedisSessionManager(host, port);
+    }
+
+    public void setExpiration(int expiration){
+        this.expiration = expiration;
     }
 
     public void setAuthenticatingRealm(AuthenticatingRealm authenticatingRealm) {
@@ -49,7 +54,7 @@ public class DefaultSecurityManager implements SecurityManager {
             String ssoToken = tokenDelegete.produceToken(request.getHeader("User-Agent"),
                     sessionId);
             response.addCookie(new Cookie(Constant.SSO_TOKEN_NAME, ssoToken));
-            SessionContext context = new SessionContext(sessionId);
+            SessionContext context = new SessionContext(sessionId, expiration);
             sessionManager.start(context);
             return ssoToken;
         }

@@ -19,11 +19,14 @@ public class SecurityConfig {
     private String host;
     @Value("${winter.redis.port}")
     private String port;
+    @Value("${winter.sso.expiration}")
+    private int expiration;
 
     @Bean
     public SecurityManager securityManager(AuthenticatingRealm authenticatingRealm){
         DefaultSecurityManager securityManager = new DefaultSecurityManager(host, port);
         securityManager.setAuthenticatingRealm(authenticatingRealm);
+        securityManager.setExpiration(expiration);
         return securityManager;
     }
 

@@ -38,10 +38,11 @@ public class RedisSessionManager implements SessionManager {
     @Override
     public SimpleSession start(SessionContext context) {
         SimpleSession simpleSession = new SimpleSession(context.getSessionId());
-        if (context.getExpiration() != 0) {
+        if (context.getExpiration() > 0) {
             simpleSession.setExpiration(context.getExpiration());
         }
-        JedisUtil.setObjectValue((String) simpleSession.getId(), simpleSession, simpleSession.getExpiration());
+        JedisUtil.setObjectValue((String) simpleSession.getId(),
+                simpleSession, simpleSession.getExpiration());
         return simpleSession;
     }
 
